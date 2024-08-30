@@ -183,20 +183,20 @@ Each entry in a list consists of a link to the information of the test, includin
 
 The CWL project already publishes a handy way to execute the conformance tests, to generate markdown reports, and upload them to the specified repository as custom GitHub Actions in the GitHub Marketplace [@citation:runtests; @citation:uploadtests]. We hope other developers will publish the markdown reports for their workflow engines.
 
-## Improvement: Update a CWL template for VSCode to use the latest syntax validator based on JSON schema
-- https://github.com/tom-tan/cwl-template-for-vscode
 
 ## Other reported issues, developments and improvements during the Hackathon
 Here is a brief list of reported issues and improvements to the ecosystems.
 
+- Update a CWL template for VSCode to use the latest syntax validator based on JSON schema
+  - https://github.com/tom-tan/cwl-template-for-vscode
 - Report an issue to clarify a corner case in the spec of CWL v1.3
   - https://github.com/common-workflow-language/cwl-v1.3/issues/53
-- Report an issue that potentially breaks portability between workflow engines for CWL
-  - https://github.com/common-workflow-language/schema_salad/issues/863
 - Send a pull request to clarify undocumented spec of SALAD, that is underlying spec of CWL
   - https://github.com/common-workflow-language/schema_salad/pull/861
 - Update a parser generator of SALAD for Dlang to support schemas for input objects
   - https://github.com/common-workflow-language/schema_salad/pull/825
+- Report an issue that potentially breaks portability between workflow engines for CWL
+  - https://github.com/common-workflow-language/schema_salad/issues/863
 
 ## References
 
