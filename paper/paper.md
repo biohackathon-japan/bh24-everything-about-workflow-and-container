@@ -10,7 +10,7 @@ authors:
     orcid: 0000-0002-4421-9659
     affiliation: 1, 2
   - name: Kentaro Yamamoto
-    orcid: 0000-0000-0000-0000
+    orcid: 0009-0006-0201-298X
     affiliation: 3
   - name: Pitiporn Noisagul
     orcid: 0000-0000-0000-0000
