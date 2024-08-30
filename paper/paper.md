@@ -145,10 +145,6 @@ However, it does not work for some parameter types such as `int[]` and `double[]
 We reported this issue to the repository of `cwltool` [@citation:cwltool2034]. We also sent a pull request to fix it [@citation:cwltool2037].
 Once it is merged, users can pass more complicated arguments via command line and it would help to develop their workflows.
 
-See the followings for more details.
-- Reported issue: https://github.com/common-workflow-language/cwltool/issues/2034
-- Pull Request to solve it: https://github.com/common-workflow-language/cwltool/pull/2037
-
 ## Development: Release a new version of shaft, an executor for CWL workflows, to demonstrate new feature of CWL conformance test suite
 The CWL project provides the CWL conformance tests and the test suite for that to the developers of workflow engines.
 With the conformance tests, they can check how conformant a given workflow engine is with the CWL specification.
