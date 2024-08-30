@@ -86,12 +86,7 @@ Second, we developed and improved workflow ecosystems to remove the barriors to 
 
 This paper reports what we did during the DBCLS BioHackathon 2024.
 
-# Outcomes in the DBCLS BioHackathon 2024
-
-
-This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
-
-## Cooperation with other groups
+# Cooperation with other groups
 
 - share snakemake 8 tips about configuration, manabu's blog
   - configuration: https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html
@@ -105,15 +100,58 @@ This document use Markdown and you can look at [this tutorial](https://www.markd
 - share CWL 5 tips (in japanease), kentaro's blog
   - blog: https://scrapbox.io/Open-BioInfo-yamaken/CWL
 
-## Developments and improvements of workflow ecosystems
+# Developments and improvements of workflow ecosystems
 
-We reported several issues of workflow ecosystems.
+Here are overviews of reported issues, developments and improvements of ecosystems during the Hackathon.
+
+## Report: an issue when passing array input parameters via command line arguments in cwltool
+
+The `cwltool`, reference runner of CWL, can take the input parameters via command line arguments in addition to a YAML or JSON file that lists the input parameters.
+Here is an example of this feature.
+```console
+$ cat example.cwl
+class: CommandLineTool
+cwlVersion: v1.2
+
+baseCommand: echo
+inputs:
+  inp:
+    type: int
+    inputBinding: {}
+
+outputs: []
+$ cwltool example.cwl --help
+...
+usage: example.cwl [-h] --inp INP [job_order]
+
+positional arguments:
+  job_order   Job input json file
+
+options:
+  -h, --help  show this help message and exit
+  --inp INP
+$ cwltool example.cwl --inp=10
+...
+INFO [job example.cwl] /private/tmp/docker_tmpz1a3u8k8$ echo \
+    10
+10
+INFO [job example.cwl] completed success
+{}INFO Final process status is success
+```
+
+This feature is useful especially when developing workflows.
+
+However, it does not work for some parameter types such as `int[]` and `double[]`.
+We reported this issue to the repository of `cwltool`. We also sent a pull request to fix it.
+Once it is merged, users can pass more complicated arguments via command line and it would help to develop their workflow.
+
+See the following for more details.
+- Reported issue: https://github.com/common-workflow-language/cwltool/issues/2034
+- Pull Request to solve it: https://github.com/common-workflow-language/cwltool/pull/2037
+
+## Others
 - Report an issue to clarify a corner case in the spec of CWL v1.3
   - https://github.com/common-workflow-language/cwl-v1.3/issues/53
-- Report an issue when passing array input parameters via command line arguments in cwltool
-  - https://github.com/common-workflow-language/cwltool/issues/2034
-  - Send a pull request to fix it
-    - https://github.com/common-workflow-language/cwltool/pull/2037
 - Report an issue that potentially breaks portability between workflow engines for CWL
   - https://github.com/common-workflow-language/schema_salad/issues/863
 
