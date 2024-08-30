@@ -1,30 +1,35 @@
 ---
-title: 'BioHackEU23 report: Template for the very long title'
-title_short: 'BioHackEU23 #26: unknown chemical substances'
+title: 'DBCLS BioHackathon 2024 report: Everything about workflow and container'
+title_short: 'DBCLS BioHackathon 2024: workflow and container'
 tags:
-  - cheminformatics
-  - PubChem
-  - unknown chemical substances
+  - Workflow Languages
+  - Workflow Engines
+  - Containers
 authors:
-  - name: First Author
+  - name: Tomoya Tanjo
+    orcid: 0000-0002-4421-9659
     affiliation: 1
   - name: Last Author
     orcid: 0000-0000-0000-0000
     affiliation: 2
 affiliations:
-  - name: First Affiliation
+  - name: Bioinformation and DDBJ Center
     index: 1
-  - name: Second Affiliation
+  - name: BioData Science Initiative
     index: 2
-date: 8 November 2023
+  - name: First Affiliation
+    index: 3
+  - name: Second Affiliation
+    index: 4
+date: 30th August 2024
 cito-bibliography: paper.bib
-event: BH23EU
-biohackathon_name: "BioHackathon Europe 2023"
-biohackathon_url:   "https://biohackathon-europe.org/"
-biohackathon_location: "Barcelona, Spain, 2023"
+event: DBCLS BioHackathon 2024
+biohackathon_name: "DBCLS BioHackathon 2024"
+biohackathon_url:   "[https://biohackathon-europe.org/](http://2024.biohackathon.org/)"
+biohackathon_location: "Fukushima, Japan, 2024"
 group: Project 26
 # URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
+git_url: https://github.com/biohackathon-japan/bh24-everything-about-workflow-and-container
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
 authors_short: First Author \emph{et al.}
