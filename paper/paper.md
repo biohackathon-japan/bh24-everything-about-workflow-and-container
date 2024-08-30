@@ -187,6 +187,7 @@ The CWL project already publishes a handy way to execute the conformance tests, 
 
 ## Other reported issues, developments and improvements during the Hackathon
 Here is a brief list of reported issues and improvements to the ecosystems.
+
 - Report an issue to clarify a corner case in the spec of CWL v1.3
   - https://github.com/common-workflow-language/cwl-v1.3/issues/53
 - Report an issue that potentially breaks portability between workflow engines for CWL
