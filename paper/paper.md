@@ -177,18 +177,35 @@ However, there were no engines that provide detailed results in markdown files y
 To demonstrate and to encourage the developers of workflow engines for CWL to use this feature, our group releaseed a new version of `shaft`,
 an executor for CWL workflows, and provides a list of detailed results of the CWL conformance tests.
 
-Our groups
+Here is an example of the detailed results of the conformance tests for `CommandLineTool` category by `shaft`.
 
-- https://github.com/tom-tan/shaft/releases/tag/v0.10.1
-- Now users see the detailed results of each test category
-- Example: detailed result of the CommandLineTool category
-  - https://github.com/tom-tan/conformance/blob/master/shaft/cwl_v1.0/shaft_v0.10.1/command_line_tool.md
-  - https://www.commonwl.org/v1.0/CommandLineTool.html
-- Other CWL engines can easily implement the same feature with custom GitHub Actions in the marketplace:
-  - Run CWL conformance tests
-    - https://github.com/marketplace/actions/run-cwl-conformance-tests
-  - Upload CWL conformance badges
-    - https://github.com/marketplace/actions/upload-cwl-conformance-badges
+---
+# `command_line_tool` tests
+## List of passed tests
+- [cl_basic_generation](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L0) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/bwa-mem-tool.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/bwa-mem-job.json))
+- [nested_prefixes_arrays](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L11) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/binding-test.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/bwa-mem-job.json))
+- [nested_cl_bindings](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L22) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/tmap-tool.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/tmap-job.json))
+
+...
+## List of failed tests
+## List of unsupported tests
+- [initworkdir_expreng_requirements](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L48) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/template-tool.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat-job.json))
+- [stdout_redirect_docker](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L61) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat3-tool-docker.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat-job.json))
+- [stdout_redirect_shortcut_docker](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L73) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat3-tool-shortcut.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat-job.json))
+
+...
+---
+
+It consists of lists of succeeded, failed and unsupported tests by a given engine.
+Each entry in a list consists of a link to the information of the test, including a description of the test and expected result, in the CWL repository, a link to the CWL tool or workflow description, and a link to the YAML or JSON file which lists input paremeters.
+
+The CWL project already publishes a handy way to execute the conformance tests, to generate markdown reports, and upload them to the specified repository as custom GitHub Actions in the GitHub Marketplace. We hope other developers will publish the markdown reports for their workflow engines.
+
+Here are links to the detailed information about this update:
+- Release page of `shaft` v0.10.1: https://github.com/tom-tan/shaft/releases/tag/v0.10.1
+- Full results of the conformance tests for `CommandLineTool` category by `shaft` v0.10.1: https://github.com/tom-tan/conformance/blob/master/shaft/cwl_v1.0/shaft_v0.10.1/command_line_tool.md
+- Custom GitHub Action to execute CWL conformance tests and generate markdown reports: https://github.com/marketplace/actions/run-cwl-conformance-tests
+- Custom GitHub Action to upload CWL conformance badges: https://github.com/marketplace/actions/upload-cwl-conformance-badges
 
 ## Improvement: Update a CWL template for VSCode to use the latest syntax validator based on JSON schema
 - https://github.com/tom-tan/cwl-template-for-vscode
