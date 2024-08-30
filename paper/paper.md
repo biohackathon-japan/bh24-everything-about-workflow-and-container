@@ -184,7 +184,7 @@ The CWL project already publishes a handy way to execute the conformance tests, 
 
 
 ## Other reported issues, developments and improvements during the Hackathon
-Here is a brief list of reported issues and improvements to the ecosystems.
+Here is a brief list of other reported issues and improvements to the ecosystems.
 
 - Update a CWL template for VSCode to use the latest syntax validator based on JSON schema
   - https://github.com/tom-tan/cwl-template-for-vscode
