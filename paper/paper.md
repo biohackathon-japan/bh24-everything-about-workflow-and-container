@@ -179,22 +179,7 @@ an executor for CWL workflows, and provides a list of detailed results of the CW
 
 Here is an example of the detailed results of the conformance tests for `CommandLineTool` category by `shaft`.
 
----
-# `command_line_tool` tests
-## List of passed tests
-- [cl_basic_generation](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L0) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/bwa-mem-tool.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/bwa-mem-job.json))
-- [nested_prefixes_arrays](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L11) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/binding-test.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/bwa-mem-job.json))
-- [nested_cl_bindings](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L22) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/tmap-tool.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/tmap-job.json))
-
-...
-## List of failed tests
-## List of unsupported tests
-- [initworkdir_expreng_requirements](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L48) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/template-tool.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat-job.json))
-- [stdout_redirect_docker](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L61) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat3-tool-docker.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat-job.json))
-- [stdout_redirect_shortcut_docker](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/conformance_test_v1.0.yaml#L73) ([tool](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat3-tool-shortcut.cwl), [job](https://github.com/common-workflow-language/common-workflow-language/tree/main/v1.0/v1.0/cat-job.json))
-
-...
----
+![Example of detailed result of the conformance tests](./markdown-report.png)
 
 It consists of lists of succeeded, failed and unsupported tests by a given engine.
 Each entry in a list consists of a link to the information of the test, including a description of the test and expected result, in the CWL repository, a link to the CWL tool or workflow description, and a link to the YAML or JSON file which lists input paremeters.
