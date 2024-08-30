@@ -86,7 +86,7 @@ Second, we developed and improved workflow ecosystems to remove the barriors to 
 
 This paper reports what we did during the DBCLS BioHackathon 2024.
 
-# Cooperation with other groups
+# Cooperations with other groups
 
 - We supported people who want to install InterMine.
 
