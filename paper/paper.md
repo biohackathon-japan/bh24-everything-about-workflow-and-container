@@ -156,13 +156,21 @@ With the conformance tests, they can check how conformant a given workflow engin
 The CWL project also provides a feature to generate badges that show how percentage of a given category was passed by a given workflow engine.
 Here is an example of a conformance badge.
 
-![Example of a conformance badge](./figs/conformance-badge.png)
+![Example of a conformance badge](./conformance-badges.png)
 
-blah blah blah
+In this example, users can understand the following about a given workflow engine:
+- it passed 82 % of tests for `CommandLineTool` including required and optional features,
+- it passed 50 % of tests for `ExpressionTool` including required and optional features, and
+- it passed all the tests for the required features.
 
-Before the DBCLS BioHackathon 2024, the CWL project has started providing a feature that generates the detailed results of the conformance tests
-in markdown files.
-Once developers of workflow engines published the detailed results of the conformance tests, users investigate whether a given workflow engines
+This feature is very useful for users to choose appropriate workflow engines for their workflows.
+
+On the other hand, users sometimes want to choose a specific workflow engine even if it passed less conformance tests because of its supported platforms and its nice features to control the workflows.
+In such cases, they want to investigate more details of the results of the conformance tests to check whether the failed features are used in their workflows.
+
+Before the DBCLS BioHackathon 2024, the CWL project started providing a feature that generates the detailed results of the conformance tests
+in markdown files for this purpose.
+Once developers of workflow engines publish the detailed results, users can investigate whether given workflow engines
 can execute their workflows.
 However, there were no engines that provide detailed results in markdown files yet.
 
