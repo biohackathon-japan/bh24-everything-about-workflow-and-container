@@ -82,19 +82,57 @@ For example:
 - How to integrate our workflows with job schedulers such as Slurm and GridEngine?
 
 To solve these problems, our group did the following:
-- Cooperate with other groups to develop their workflows,
-- Cooperate with other groups to make their workflow integrated with containers, and
+- Cooperate with other groups to develop their workflows, and to make their workflow integrated with containers, and
 - Develop and improve workflow ecosystems to remove the barriors to develop and execute their workflows. Ecosystems include workflow executors, specifications of workflow languages, workflow-related tools
 
 This paper reports what we did during the DBCLS BioHackathon 2024.
 
-# Formatting
+# Outcomes in the DBCLS BioHackathon 2024
+
 
 This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
 
-## Subsection level 2
+## Cooperation with other groups
+
+- share snakemake 8 tips about configuration, manabu's blog
+  - configuration: https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html
+  - blog: https://zenn.dev/manabuishii/scraps/6df9013c36268f
+ 
+- We support people who want to install InterMine.
+
+## Developments and improvements of workflow ecosystems
+- Report an issue to clarify a corner case in the spec of CWL v1.3
+  - https://github.com/common-workflow-language/cwl-v1.3/issues/53
+- Release a new version of shaft, an executor for CWL, to demonstrate new feature of CWL conformance test suite
+  - https://github.com/tom-tan/shaft/releases/tag/v0.10.1
+  - Now users see the detailed results of each test category
+  - Example: detailed result of the CommandLineTool category
+    - https://github.com/tom-tan/conformance/blob/master/shaft/cwl_v1.0/shaft_v0.10.1/command_line_tool.md
+    - https://www.commonwl.org/v1.0/CommandLineTool.html
+  - Other CWL engines can easily implement the same feature with custom GitHub Actions in the marketplace:
+    - Run CWL conformance tests
+      - https://github.com/marketplace/actions/run-cwl-conformance-tests
+    - Upload CWL conformance badges
+      - https://github.com/marketplace/actions/upload-cwl-conformance-badges
+- Report an issue when passing array input parameters via command line arguments in cwltool
+  - https://github.com/common-workflow-language/cwltool/issues/2034
+  - Send a pull request to fix it
+    - https://github.com/common-workflow-language/cwltool/pull/2037
+- Send a pull request to clarify undocumented spec of SALAD, that is underlying spec of CWL
+  - https://github.com/common-workflow-language/schema_salad/pull/861
+- Update a parser generator of SALAD for Dlang to support schemas for input objects
+  - https://github.com/common-workflow-language/schema_salad/pull/825
+- Update a CWL template for VSCode to use the latest syntax validator based on JSON schema
+  - https://github.com/tom-tan/cwl-template-for-vscode
+- Report an issue that potentially breaks portability between workflow engines for CWL
+  - https://github.com/common-workflow-language/schema_salad/issues/863
+
+
+
+---
 
 Please keep sections to a maximum of only two levels.
+
 
 ## Tables and figures
 
