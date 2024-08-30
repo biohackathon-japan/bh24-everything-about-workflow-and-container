@@ -173,7 +173,7 @@ However, there were no engines that provide detailed results in markdown files y
 To demonstrate and to encourage the developers of workflow engines for CWL to use this feature, our group releaseed a new version of `shaft`,
 an executor for CWL workflows, and provides a list of detailed results of the CWL conformance tests.
 
-Here is an example of the detailed results of the conformance tests for `CommandLineTool` category by `shaft` [@usesDataFrom:cltresult].
+Here is an example of the detailed results of the conformance tests for `CommandLineTool` category by `shaft`.
 
 ![Detailed result of the conformance tests for `CommandLineTool` category by `shaft`](./markdown-report.png)
 
