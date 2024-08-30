@@ -102,7 +102,7 @@ This paper reports what we did during the DBCLS BioHackathon 2024.
 
 # Developments and improvements of workflow ecosystems
 
-Here are overviews of reported issues, developments and improvements of ecosystems during the Hackathon.
+Here are overviews of notable reported issues, developments and improvements of ecosystems during the Hackathon.
 
 ## Report: an issue when passing array input parameters via command line arguments in cwltool
 
@@ -149,31 +149,31 @@ See the following for more details.
 - Reported issue: https://github.com/common-workflow-language/cwltool/issues/2034
 - Pull Request to solve it: https://github.com/common-workflow-language/cwltool/pull/2037
 
-## Others
+## Development: Release a new version of shaft, an executor for CWL, to demonstrate new feature of CWL conformance test suite
+- https://github.com/tom-tan/shaft/releases/tag/v0.10.1
+- Now users see the detailed results of each test category
+- Example: detailed result of the CommandLineTool category
+  - https://github.com/tom-tan/conformance/blob/master/shaft/cwl_v1.0/shaft_v0.10.1/command_line_tool.md
+  - https://www.commonwl.org/v1.0/CommandLineTool.html
+- Other CWL engines can easily implement the same feature with custom GitHub Actions in the marketplace:
+  - Run CWL conformance tests
+    - https://github.com/marketplace/actions/run-cwl-conformance-tests
+  - Upload CWL conformance badges
+    - https://github.com/marketplace/actions/upload-cwl-conformance-badges
+
+## Improvement: Update a CWL template for VSCode to use the latest syntax validator based on JSON schema
+- https://github.com/tom-tan/cwl-template-for-vscode
+
+## Other reported issues, developments and improvements during the Hackathon
+Here is a brief list of reported issues and improvements to the ecosystems.
 - Report an issue to clarify a corner case in the spec of CWL v1.3
   - https://github.com/common-workflow-language/cwl-v1.3/issues/53
 - Report an issue that potentially breaks portability between workflow engines for CWL
   - https://github.com/common-workflow-language/schema_salad/issues/863
-
-We also improved workflow ecosystems.
-
-- Release a new version of shaft, an executor for CWL, to demonstrate new feature of CWL conformance test suite
-  - https://github.com/tom-tan/shaft/releases/tag/v0.10.1
-  - Now users see the detailed results of each test category
-  - Example: detailed result of the CommandLineTool category
-    - https://github.com/tom-tan/conformance/blob/master/shaft/cwl_v1.0/shaft_v0.10.1/command_line_tool.md
-    - https://www.commonwl.org/v1.0/CommandLineTool.html
-  - Other CWL engines can easily implement the same feature with custom GitHub Actions in the marketplace:
-    - Run CWL conformance tests
-      - https://github.com/marketplace/actions/run-cwl-conformance-tests
-    - Upload CWL conformance badges
-      - https://github.com/marketplace/actions/upload-cwl-conformance-badges
 - Send a pull request to clarify undocumented spec of SALAD, that is underlying spec of CWL
   - https://github.com/common-workflow-language/schema_salad/pull/861
 - Update a parser generator of SALAD for Dlang to support schemas for input objects
   - https://github.com/common-workflow-language/schema_salad/pull/825
-- Update a CWL template for VSCode to use the latest syntax validator based on JSON schema
-  - https://github.com/tom-tan/cwl-template-for-vscode
 
 
 
