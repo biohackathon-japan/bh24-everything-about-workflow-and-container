@@ -9,9 +9,17 @@ authors:
   - name: Tomoya Tanjo
     orcid: 0000-0002-4421-9659
     affiliation: 1
-  - name: Last Author
+  - name: Kentaro(Yamaken)
     orcid: 0000-0000-0000-0000
     affiliation: 2
+  - name: Pitiporn(Sam)
+  - Manabu
+  - David
+  - Naohisa
+  - Michael (online)
+  - Arto
+  - Chihiro (interested)
+
 affiliations:
   - name: Bioinformation and DDBJ Center
     index: 1
