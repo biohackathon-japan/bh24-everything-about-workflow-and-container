@@ -99,6 +99,12 @@ This document use Markdown and you can look at [this tutorial](https://www.markd
  
 - We support people who want to install InterMine.
 
+- We support CWL coding for [bh24-genome-variation](https://github.com/biohackathon-japan/bh24-genome-variation)
+  - CWL code: [AddTogoVarAnnotation.cwl](https://github.com/ellisdoro/BioHackathonFiles2024/blob/main/Tools/AddTogoVarAnnotation.cwl)
+
+- share CWL 5 tips (in japanease), kentaro's blog
+  - blog: https://scrapbox.io/Open-BioInfo-yamaken/CWL
+
 ## Developments and improvements of workflow ecosystems
 
 We reported several issues of workflow ecosystems.
