@@ -170,7 +170,7 @@ Once developers of workflow engines publish the detailed results, users can inve
 can execute their workflows.
 However, there were no engines that provide detailed results in markdown files yet.
 
-To demonstrate and to encourage the developers of workflow engines for CWL to use this feature, our group releaseed a new version of `shaft`,
+To demonstrate and to encourage the developers of workflow engines for CWL to use this feature, our group releaseed a new version of `shaft` [@citation:shaft],
 an executor for CWL workflows, and provides a list of detailed results of the CWL conformance tests.
 
 Here is an example of the detailed results of the conformance tests for `CommandLineTool` category by `shaft` (Figure 2).
@@ -180,13 +180,7 @@ Here is an example of the detailed results of the conformance tests for `Command
 It consists of lists of succeeded, failed and unsupported tests by a given engine.
 Each entry in a list consists of a link to the information of the test, including a description of the test and expected result, in the CWL repository, a link to the CWL tool or workflow description, and a link to the YAML or JSON file which lists input paremeters.
 
-The CWL project already publishes a handy way to execute the conformance tests, to generate markdown reports, and upload them to the specified repository as custom GitHub Actions in the GitHub Marketplace. We hope other developers will publish the markdown reports for their workflow engines.
-
-Here are links to the detailed information about this update:
-- Release page of `shaft` v0.10.1: https://github.com/tom-tan/shaft/releases/tag/v0.10.1
-- Full results of the conformance tests for `CommandLineTool` category by `shaft` v0.10.1: https://github.com/tom-tan/conformance/blob/master/shaft/cwl_v1.0/shaft_v0.10.1/command_line_tool.md
-- Custom GitHub Action to execute CWL conformance tests and generate markdown reports: https://github.com/marketplace/actions/run-cwl-conformance-tests
-- Custom GitHub Action to upload CWL conformance badges: https://github.com/marketplace/actions/upload-cwl-conformance-badges
+The CWL project already publishes a handy way to execute the conformance tests, to generate markdown reports, and upload them to the specified repository as custom GitHub Actions in the GitHub Marketplace [@citation:runtests; @citation:uploadtests]. We hope other developers will publish the markdown reports for their workflow engines.
 
 ## Improvement: Update a CWL template for VSCode to use the latest syntax validator based on JSON schema
 - https://github.com/tom-tan/cwl-template-for-vscode
