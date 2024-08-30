@@ -143,9 +143,9 @@ This feature is useful especially when developing workflows.
 
 However, it does not work for some parameter types such as `int[]` and `double[]`.
 We reported this issue to the repository of `cwltool`. We also sent a pull request to fix it.
-Once it is merged, users can pass more complicated arguments via command line and it would help to develop their workflow.
+Once it is merged, users can pass more complicated arguments via command line and it would help to develop their workflows.
 
-See the following for more details.
+See the followings for more details.
 - Reported issue: https://github.com/common-workflow-language/cwltool/issues/2034
 - Pull Request to solve it: https://github.com/common-workflow-language/cwltool/pull/2037
 
