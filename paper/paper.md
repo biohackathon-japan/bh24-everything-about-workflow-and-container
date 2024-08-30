@@ -155,6 +155,7 @@ Here is an example of a conformance badge.
 ![Example of conformance badges](./conformance-badges.png)
 
 In this example, users can understand the following about a given workflow engine:
+
 - it passed 82 % of tests for `CommandLineTool` including required and optional features,
 - it passed 50 % of tests for `ExpressionTool` including required and optional features, and
 - it passed all the tests for the required features.
