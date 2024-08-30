@@ -106,7 +106,7 @@ Here are overviews of notable reported issues, developments and improvements of 
 
 ## Report: an issue when passing array input parameters via command line arguments in cwltool
 
-The `cwltool`, reference runner of CWL, can take the input parameters via command line arguments in addition to a YAML or JSON file that lists the input parameters.
+The `cwltool`, a reference runner of CWL, can take the input parameters via command line arguments in addition to a YAML or JSON file that lists the input parameters.
 Here is an example of this feature.
 ```console
 $ cat example.cwl
