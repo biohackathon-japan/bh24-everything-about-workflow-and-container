@@ -142,7 +142,7 @@ INFO [job example.cwl] completed success
 This feature is useful especially when developing workflows.
 
 However, it does not work for some parameter types such as `int[]` and `double[]`.
-We reported this issue to the repository of `cwltool`. We also sent a pull request to fix it.
+We reported this issue to the repository of `cwltool` [@citation:cwltool2034]. We also sent a pull request to fix it [@citation:cwltool2037].
 Once it is merged, users can pass more complicated arguments via command line and it would help to develop their workflows.
 
 See the followings for more details.
