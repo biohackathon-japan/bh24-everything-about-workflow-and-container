@@ -13,7 +13,7 @@ authors:
     orcid: 0009-0006-0201-298X
     affiliation: 3
   - name: Pitiporn Noisagul
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0001-5351-9998
     affiliation: 4
   - name: Manabu Ishii
     orcid: 0000-0002-5843-4712
@@ -22,16 +22,16 @@ authors:
     orcid: 0000-0001-6683-2270
     affiliation: 5
   - name: Naohisa Goto
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0001-8953-046X
     affiliation: 6
   - name: Michael R. Crusoe
     orcid: 0000-0002-2961-9670
     affiliation: 7, 8
   - name: Arto Bendiken
-    orcid: 0000-0000-0000-0000
+    orcid: 0009-0002-0725-4874
     affiliation: 9
   - name: Chihiro Higuchi
-    orcid: 0000-0000-0000-0000
+    orcid: 0000-0003-2808-2813
     affiliation: 10, 11
 
 affiliations:
