@@ -77,7 +77,7 @@ authors_short: Tomoya Tanjo, Kentaro Yamamoto \emph{et al.}
 Workflow engines are now widely used for genome analysis workflows.
 On the other hand, there are still difficulties to build and execute their workflows in various aspects.
 Here are examples of such difficulties:
-How to develop our workflows in workflow languages such as Common Workflow Language (CWL), snakemake, nextflow, and others?
+How to develop our workflows in workflow languages such as Common Workflow Language (CWL) [@citation:CWL], snakemake, nextflow, and others?
 How to integrate our workflows with containers such as Docker, Singularity, and Podman?
 How to integrate our workflows with job schedulers such as Slurm and GridEngine?
 
