@@ -81,7 +81,7 @@ How to develop our workflows in workflow languages such as Common Workflow Langu
 How to integrate our workflows with containers such as Docker, Singularity, and Podman?
 How to integrate our workflows with job schedulers such as Slurm and GridEngine?
 
-Our group solved these problems with the following activities. First, we cooperated with other groups to develop their workflows, and to make their workflow integrated with containers.
+Our group solved these problems with the following activities. First, we cooperated with other groups to develop their workflows, and to make their workflows integrated with containers.
 Second, we developed and improved workflow ecosystems to remove the barriors to develop and execute their workflows. Ecosystems include workflow executors, specifications of workflow languages, and workflow-related tools.
 
 This paper reports what we did during the DBCLS BioHackathon 2024.
