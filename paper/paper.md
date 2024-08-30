@@ -156,7 +156,7 @@ With the conformance tests, they can check how conformant a given workflow engin
 The CWL project also provides a feature to generate badges that show how percentage of a given category was passed by a given workflow engine.
 Here is an example of a conformance badge.
 
-![Example of a conformance badge](./conformance-badges.png)
+![Example of conformance badges](./conformance-badges.png)
 
 In this example, users can understand the following about a given workflow engine:
 - it passed 82 % of tests for `CommandLineTool` including required and optional features,
@@ -179,7 +179,7 @@ an executor for CWL workflows, and provides a list of detailed results of the CW
 
 Here is an example of the detailed results of the conformance tests for `CommandLineTool` category by `shaft`.
 
-![Example of detailed result of the conformance tests](./markdown-report.png)
+![Detailed result of the conformance tests for `CommandLineTool` category by `shaft`](./markdown-report.png)
 
 It consists of lists of succeeded, failed and unsupported tests by a given engine.
 Each entry in a list consists of a link to the information of the test, including a description of the test and expected result, in the CWL repository, a link to the CWL tool or workflow description, and a link to the YAML or JSON file which lists input paremeters.
