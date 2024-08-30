@@ -88,16 +88,16 @@ This paper reports what we did during the DBCLS BioHackathon 2024.
 
 # Cooperation with other groups
 
-- share snakemake 8 tips about configuration, manabu's blog
+- We supported people who want to install InterMine.
+
+- We supported CWL coding for [bh24-genome-variation](https://github.com/biohackathon-japan/bh24-genome-variation)
+  - CWL code: [AddTogoVarAnnotation.cwl](https://github.com/ellisdoro/BioHackathonFiles2024/blob/main/Tools/AddTogoVarAnnotation.cwl)
+
+- We shared tips about configuration of snakemake 8 in Manabu's blog
   - configuration: https://snakemake.readthedocs.io/en/stable/snakefiles/configuration.html
   - blog: https://zenn.dev/manabuishii/scraps/6df9013c36268f
  
-- We support people who want to install InterMine.
-
-- We support CWL coding for [bh24-genome-variation](https://github.com/biohackathon-japan/bh24-genome-variation)
-  - CWL code: [AddTogoVarAnnotation.cwl](https://github.com/ellisdoro/BioHackathonFiles2024/blob/main/Tools/AddTogoVarAnnotation.cwl)
-
-- share CWL 5 tips (in japanease), kentaro's blog
+- We shared CWL 5 tips in Kentaro's blog (in japanease)
   - blog: https://scrapbox.io/Open-BioInfo-yamaken/CWL
 
 # Developments and improvements of workflow ecosystems
