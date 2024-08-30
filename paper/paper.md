@@ -149,7 +149,28 @@ See the followings for more details.
 - Reported issue: https://github.com/common-workflow-language/cwltool/issues/2034
 - Pull Request to solve it: https://github.com/common-workflow-language/cwltool/pull/2037
 
-## Development: Release a new version of shaft, an executor for CWL, to demonstrate new feature of CWL conformance test suite
+## Development: Release a new version of shaft, an executor for CWL workflows, to demonstrate new feature of CWL conformance test suite
+The CWL project provides the CWL conformance tests and the test suite for that to the developers of workflow engines.
+With the conformance tests, they can check how conformant a given workflow engine is with the CWL specification.
+
+The CWL project also provides a feature to generate badges that show how percentage of a given category was passed by a given workflow engine.
+Here is an example of a conformance badge.
+
+![Example of a conformance badge](./figs/conformance-badge.png)
+
+blah blah blah
+
+Before the DBCLS BioHackathon 2024, the CWL project has started providing a feature that generates the detailed results of the conformance tests
+in markdown files.
+Once developers of workflow engines published the detailed results of the conformance tests, users investigate whether a given workflow engines
+can execute their workflows.
+However, there were no engines that provide detailed results in markdown files yet.
+
+To demonstrate and to encourage the developers of workflow engines for CWL to use this feature, our group releaseed a new version of `shaft`,
+an executor for CWL workflows, and provides a list of detailed results of the CWL conformance tests.
+
+Our groups
+
 - https://github.com/tom-tan/shaft/releases/tag/v0.10.1
 - Now users see the detailed results of each test category
 - Example: detailed result of the CommandLineTool category
