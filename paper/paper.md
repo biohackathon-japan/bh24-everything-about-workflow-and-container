@@ -196,6 +196,8 @@ Here is a brief list of other reported issues and improvements to the ecosystems
   - https://github.com/common-workflow-language/schema_salad/pull/825
 - Report an issue that potentially breaks portability between workflow engines for CWL
   - https://github.com/common-workflow-language/schema_salad/issues/863
+- Began the implementation of a CWL parser and serializer for Rust
+  - https://github.com/artob/cwl.rs
 
 ## References
 
