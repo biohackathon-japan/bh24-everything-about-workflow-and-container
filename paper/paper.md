@@ -63,7 +63,7 @@ event: DBCLS BioHackathon 2024
 biohackathon_name: "DBCLS BioHackathon 2024"
 biohackathon_url: http://2024.biohackathon.org/
 biohackathon_location: "Fukushima, Japan, 2024"
-group: Project 26
+group: Everything about workflow and container
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackathon-japan/bh24-everything-about-workflow-and-container
 # This is the short authors description that is used at the
