@@ -82,7 +82,7 @@ How to integrate our workflows with containers such as Docker, Singularity, and 
 How to integrate our workflows with job schedulers such as Slurm and GridEngine?
 
 Our group solved these problems with the following activities. First, we cooperated with other groups to develop their workflows, and to make their workflows integrated with containers.
-Second, we developed and improved workflow ecosystems to remove the barriors to develop and execute their workflows. Ecosystems include workflow executors, specifications of workflow languages, and workflow-related tools.
+Second, we developed and improved workflow ecosystems to remove the barriers to develop and execute their workflows. Ecosystems include workflow executors, specifications of workflow languages, and workflow-related tools.
 
 This paper reports what we did during the DBCLS BioHackathon 2024.
 
